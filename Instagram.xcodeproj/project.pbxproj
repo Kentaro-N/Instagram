@@ -13,6 +13,11 @@
 		963E03D525DA79390023E3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963E03D325DA79390023E3DC /* Main.storyboard */; };
 		963E03D725DA793B0023E3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963E03D625DA793B0023E3DC /* Assets.xcassets */; };
 		963E03DA25DA793B0023E3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963E03D825DA793B0023E3DC /* LaunchScreen.storyboard */; };
+		963E03E325DA7BDA0023E3DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E03E225DA7BDA0023E3DC /* LoginViewController.swift */; };
+		963E03E625DA7D060023E3DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E03E525DA7D060023E3DC /* HomeViewController.swift */; };
+		963E03E925DA7D210023E3DC /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E03E825DA7D210023E3DC /* ImageSelectViewController.swift */; };
+		963E03EC25DA7D380023E3DC /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E03EB25DA7D380023E3DC /* PostViewController.swift */; };
+		963E03EF25DA7D510023E3DC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E03EE25DA7D510023E3DC /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		963E03D625DA793B0023E3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		963E03D925DA793B0023E3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		963E03DB25DA793B0023E3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963E03E225DA7BDA0023E3DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		963E03E525DA7D060023E3DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		963E03E825DA7D210023E3DC /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		963E03EB25DA7D380023E3DC /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		963E03EE25DA7D510023E3DC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				963E03CD25DA79390023E3DC /* AppDelegate.swift */,
 				963E03CF25DA79390023E3DC /* SceneDelegate.swift */,
 				963E03D125DA79390023E3DC /* ViewController.swift */,
+				963E03EE25DA7D510023E3DC /* SettingViewController.swift */,
+				963E03EB25DA7D380023E3DC /* PostViewController.swift */,
+				963E03E825DA7D210023E3DC /* ImageSelectViewController.swift */,
+				963E03E525DA7D060023E3DC /* HomeViewController.swift */,
+				963E03E225DA7BDA0023E3DC /* LoginViewController.swift */,
 				963E03D325DA79390023E3DC /* Main.storyboard */,
 				963E03D625DA793B0023E3DC /* Assets.xcassets */,
 				963E03D825DA793B0023E3DC /* LaunchScreen.storyboard */,
@@ -137,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963E03E925DA7D210023E3DC /* ImageSelectViewController.swift in Sources */,
+				963E03E625DA7D060023E3DC /* HomeViewController.swift in Sources */,
+				963E03EC25DA7D380023E3DC /* PostViewController.swift in Sources */,
+				963E03EF25DA7D510023E3DC /* SettingViewController.swift in Sources */,
+				963E03E325DA7BDA0023E3DC /* LoginViewController.swift in Sources */,
 				963E03D225DA79390023E3DC /* ViewController.swift in Sources */,
 				963E03CE25DA79390023E3DC /* AppDelegate.swift in Sources */,
 				963E03D025DA79390023E3DC /* SceneDelegate.swift in Sources */,
@@ -295,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kentaro.nishikata.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kentaro.nishikata.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
